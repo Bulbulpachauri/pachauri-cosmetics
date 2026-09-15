@@ -38,8 +38,13 @@ export default function Shop() {
     <>
       <section className="border-b border-line bg-blush">
         <div className="mx-auto max-w-6xl px-5 py-14 lg:px-8">
-          <p className="eyebrow">{query ? `Search results` : "Shop All"}</p>
-          <h1 className="section-title mt-2">{query ? `“${query}”` : "All Products"}</h1>
+          <p className="mt-3 max-w-2xl text-sm text-ink/70">
+            Explore makeup and skincare products from Pachauri Cosmetics,
+            including beauty essentials for your everyday routine.
+          </p>
+          <h1 className="section-title mt-2">
+            {query ? `“${query}”` : "Makeup & Skincare Products"}
+          </h1>
         </div>
       </section>
 
@@ -57,7 +62,7 @@ export default function Shop() {
               return (
                 <li key={c.id}>
                   <button onClick={() => setCat(c.id)} className={`font-body ${activeCat === c.id ? "text-rose" : "text-ink/70 hover:text-rose"}`}>
-                    {c.name} ({n})
+                    {c.name} Products ({n})
                   </button>
                 </li>
               );
