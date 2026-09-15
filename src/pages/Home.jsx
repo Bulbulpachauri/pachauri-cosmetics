@@ -39,8 +39,8 @@ export default function Home() {
             </h1>
 
             <p className="mt-5 max-w-md text-sm text-ink/70">
-              Small-batch makeup and skincare formulated with dermatologists —
-              clean ingredients, luminous finishes, never tested on animals.
+              Shop makeup and skincare products made for your everyday beauty routine.
+              Discover clean beauty essentials, skincare, makeup and more from Pachauri Cosmetics.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -86,10 +86,12 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-5 py-16 text-center lg:px-8 lg:py-24">
         <p className="eyebrow justify-center">Shop by Category</p>
 
-        <h2 className="section-title mt-3">Find your ritual</h2>
+        <h2 className="section-title mt-3">
+          Shop Makeup & Skincare Categories
+        </h2>
 
         <p className="mx-auto mt-3 max-w-sm text-sm text-muted">
-          Six edits, each built around one part of your routine.
+          Explore makeup and skincare products for your everyday beauty routine.
         </p>
 
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -128,7 +130,7 @@ export default function Home() {
             <p className="eyebrow">Handpicked</p>
 
             <h2 className="section-title mt-2 !text-3xl">
-              Featured Products
+              Featured Makeup & Skincare Products
             </h2>
           </div>
 
@@ -196,7 +198,7 @@ export default function Home() {
             <p className="eyebrow">Loved Most</p>
 
             <h2 className="section-title mt-2 !text-3xl">
-              Best Sellers
+              Best-Selling Makeup & Skincare Products
             </h2>
           </div>
 
@@ -222,9 +224,9 @@ export default function Home() {
             <div>
               <p className="eyebrow">Just Landed</p>
 
-              <h2 className="section-title mt-2 !text-3xl">
-                New Arrivals
-              </h2>
+<h2 className="section-title mt-2 !text-3xl">
+  New Makeup & Skincare Arrivals
+</h2>
             </div>
 
             <Link

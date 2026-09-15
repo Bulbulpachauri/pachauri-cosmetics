@@ -13,7 +13,7 @@ export default function ProductCard({ product }) {
         <Link to={`/product/${product.id}`}>
           <img
             src={product.image}
-            alt={product.name}
+            alt={`${product.name} - ${product.category} - Pachauri Cosmetics`}
             className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         </Link>
