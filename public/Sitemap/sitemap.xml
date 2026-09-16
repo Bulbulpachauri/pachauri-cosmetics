@@ -25,4 +25,8 @@
     <loc>https://pachauri-cosmetics.vercel.app/account</loc>
   </url>
 
+  <url>
+    <loc>https://pachauri-cosmetics.vercel.app/product/p3</loc>
+  </url>
+
 </urlset>
